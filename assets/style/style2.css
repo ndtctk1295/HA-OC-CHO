@@ -1,0 +1,108 @@
+/*
+    Write container index2 here
+*/
+.container__p2{
+}
+.container__p2__1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #CEA69D;
+    /* height: 261px; */
+    padding-bottom: 30px;
+}
+.container__p2__1-item1{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 1000;
+    padding-top: 20px;
+}
+.container__p2__1-item2{
+    text-align: center;
+    color: white;
+}
+.container__p2__1-item3{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container__p2__2{
+    width: 100%;
+}
+.container__p2__2-item1{
+    text-align: center;
+    font-weight: 1000;
+    padding-top: 30px;
+    font-size: 1.4rem;
+}
+.container__p2__2-item2{
+    display: flex;
+    justify-content: space-around;
+}
+.container__p2__2-item2--child{
+    width: 40%;
+}
+.container__p2__1-item3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container__p2__3{
+    display: flex;
+    flex-direction: column;
+}
+.container__p2__3-child--text{
+    padding: 25px 70px;
+    font-weight: 1000;
+    font-size: 1.4rem;
+}
+#container__p2__3-child--box_tutorial{
+    background-color: #fff;
+}
+#container__p2__3-child--thelast{
+    margin-bottom: 50px;
+}
+.container__p2__3-child--box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EBDADA;
+    margin: 0 70px;
+}
+.container__p2__3-child--option{
+    transition: 0.5s;
+}
+.container__p2__3-child--option:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*PC*/
+@media (min-width:1024px){
+    
+}
+
+/*Tablet*/
+@media (min-width:740px) and (max-width: 1023px){
+    
+}
+
+/*Mobile*/
+@media(max-width:739px){
+    .container__p2__3-child--text{
+        padding: 20px 0;
+    }
+    .container__p2__3-child--box{
+        padding: 0;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .container__p2__2-item2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__p2__2-item2--child{
+        width: 90%;
+        text-align: justify;
+    }
+}
